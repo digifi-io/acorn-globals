@@ -52,7 +52,6 @@ function parseWithGlobals(source, options, fallbackToLoose) {
   options = options || {};
 
   const globals = [];
-  let ast;
 
   const {
     ast,
